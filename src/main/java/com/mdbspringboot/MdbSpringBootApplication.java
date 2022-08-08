@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @SpringBootApplication
-@EnableMongoRepositories
+@EnableMongoRepositories("com.mdbspringboot.repo") //need to provide the packages where our repositories are located
 public class MdbSpringBootApplication {
 
 
