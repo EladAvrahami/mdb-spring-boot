@@ -1,18 +1,16 @@
-package com.mdbspringboot.bean;
+package com.mdbspringboot.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.annotation.PersistenceConstructor;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
 import javax.security.auth.Subject;
 import java.util.List;
 
-@Document(collation = "student")
+
+@Document(collection = "student")
 @Getter
 @Setter
 public class Student {

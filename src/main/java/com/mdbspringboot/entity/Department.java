@@ -1,4 +1,4 @@
-package com.mdbspringboot.bean;
+package com.mdbspringboot.entity;
 
 import lombok.Getter;
 import lombok.Setter;
