@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @SpringBootApplication
-@EnableMongoRepositories//need to provide the packages where our repositories are located
+@EnableMongoRepositories("com.mdbspringboot.repo") //need to provide the packages where our repositories are located
 @ComponentScan("com.mdbspringboot.*")
 public class MdbSpringBootApplication {
 
